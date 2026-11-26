@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fresh — парикмахерская на Шарикоподшипниковской</title>
+<meta name="description" content="Парикмахерская на Шарикоподшипниковской.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#F4F0F5">
+<meta property="og:title" content="Fresh">
+<meta property="og:description" content="Парикмахерская на Шарикоподшипниковской.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ru_RU">
+<link rel="canonical" href="https://alphave69.github.io/fresh/">
+<meta property="og:url" content="https://alphave69.github.io/fresh/">
+<meta property="og:image" content="https://alphave69.github.io/fresh/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<script>if (/\.netlify\.app$/.test(location.hostname)) document.documentElement.classList.add("on-netlify"); // плашка Netlify внизу справа — поднимем над ней панель</script>
+<style>
+@font-face{font-family:"Prata";font-style:normal;font-weight:400;font-display:swap;src:url(fonts/prata-cyrillic-400-normal.woff2) format("woff2");unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
+@font-face{font-family:"Prata";font-style:normal;font-weight:400;font-display:swap;src:url(fonts/prata-latin-400-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"Golos Text";font-style:normal;font-weight:400;font-display:swap;src:url(fonts/golos-text-cyrillic-400-normal.woff2) format("woff2");unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
+@font-face{font-family:"Golos Text";font-style:normal;font-weight:400;font-display:swap;src:url(fonts/golos-text-latin-400-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"Golos Text";font-style:normal;font-weight:500;font-display:swap;src:url(fonts/golos-text-cyrillic-500-normal.woff2) format("woff2");unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
+@font-face{font-family:"Golos Text";font-style:normal;font-weight:500;font-display:swap;src:url(fonts/golos-text-latin-500-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"Golos Text";font-style:normal;font-weight:700;font-display:swap;src:url(fonts/golos-text-cyrillic-700-normal.woff2) format("woff2");unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
+@font-face{font-family:"Golos Text";font-style:normal;font-weight:700;font-display:swap;src:url(fonts/golos-text-latin-700-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+:root{
+  --bg:#F4F0F5;
+  --surface:#FFFFFF;
+  --ink:#3A1F34;
+  --muted:#7A6475;
+  --accent:#7B2D62;
+  --accent-ink:#FFFFFF;
+  --line:#E2D6E0;
+  --radius:18px;
+  --metro:#B3D445;
+  --metro-ink:#1E1E1E;
+  --display:"Prata", "Golos Text", system-ui, sans-serif;
+  --body:"Golos Text", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --display-weight:400;
+  --wrap:1120px;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1.0625rem/1.6 var(--body);-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:2px}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 20px}
+h1,h2,h3{font-family:var(--display);font-weight:var(--display-weight);line-height:1.05;margin:0;letter-spacing:-.01em}
+h2{font-size:clamp(1.9rem,4.2vw,2.8rem);margin-bottom:28px}
+section{padding:72px 0}
+.muted{color:var(--muted)}
+
+/* демо-плашка */
+.demo-bar{background:var(--accent);color:var(--accent-ink);font-size:.875rem;line-height:1.4;padding:9px 0}
+.demo-bar .wrap{display:flex;gap:6px 16px;flex-wrap:wrap;justify-content:space-between}
+.demo-bar a{font-weight:700}
+
+/* шапка */
+.top{border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:64px}
+.brand{font-family:var(--display);font-weight:var(--display-weight);font-size:1.15rem;text-decoration:none;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.nav{display:flex;gap:26px;align-items:center}
+.nav a{text-decoration:none;color:var(--muted);font-weight:500}
+.nav a:hover{color:var(--ink)}
+.nav .tel{color:var(--ink);font-weight:700;white-space:nowrap}
+@media (max-width:820px){.nav a:not(.tel){display:none}}
+
+/* первый экран */
+.hero{padding:64px 0 56px}
+.hero h1{font-size:clamp(2.7rem,9vw,6.4rem);max-width:14ch;overflow-wrap:anywhere}
+.lead{font-size:clamp(1.15rem,2.2vw,1.4rem);max-width:38ch;margin:22px 0 0;color:var(--ink);opacity:.9}
+
+/* маршрут от метро — главный элемент */
+.route{margin:44px 0 0;display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:0 14px;max-width:760px}
+.roundel{width:52px;height:52px;border-radius:50%;background:var(--metro);color:var(--metro-ink);display:grid;place-items:center;font:800 1.35rem/1 var(--body);box-shadow:0 0 0 4px var(--bg),0 0 0 6px var(--metro)}
+.path{position:relative;height:52px}
+.path::before{content:"";position:absolute;left:0;top:50%;width:34%;height:8px;margin-top:-4px;background:var(--metro);border-radius:0 4px 4px 0}
+.path::after{content:"";position:absolute;left:36%;right:0;top:50%;height:6px;margin-top:-3px;background:radial-gradient(circle,var(--ink) 2.2px,transparent 2.6px) 0 50%/16px 6px repeat-x;opacity:.75}
+.path span{position:absolute;left:60%;top:-6px;transform:translateX(-50%);background:var(--bg);padding:0 8px;font-weight:700;font-size:.95rem;white-space:nowrap}
+.pin{width:44px;height:52px;display:grid;place-items:center}
+.pin svg{width:34px;height:44px}
+.route-labels{grid-column:1/-1;display:flex;justify-content:space-between;gap:16px;margin-top:10px;font-size:.95rem}
+.route-labels b{display:block;font-weight:700}
+.route-labels .to{text-align:right}
+
+.status-row{display:flex;flex-wrap:wrap;gap:10px 22px;align-items:center;margin-top:34px;font-weight:500}
+.dot{display:inline-block;width:10px;height:10px;border-radius:50%;background:#2FA84F;margin-right:8px;vertical-align:1px}
+.status.closed .dot{background:#C8453B}
+.rating{color:var(--muted)}
+.rating b{color:var(--ink)}
+a.rating{text-decoration:underline;text-decoration-color:var(--line);text-underline-offset:4px}
+a.rating:hover{text-decoration-color:var(--muted)}
+
+.cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:54px;padding:0 26px;border-radius:var(--radius);font:700 1.05rem/1 var(--body);text-decoration:none;border:2px solid var(--accent);cursor:pointer}
+.btn-main{background:var(--accent);color:var(--accent-ink)}
+.btn-main:hover{filter:brightness(1.08)}
+.btn-ghost{background:transparent;color:var(--ink);border-color:var(--line)}
+.btn-ghost:hover{border-color:var(--ink)}
+.btn svg{width:20px;height:20px}
+@media (max-width:820px){.cta .btn-tel{display:none}} /* на телефоне звонок есть в нижней панели */
+
+/* цены */
+.prices{background:var(--surface);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.price-cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));gap:12px 64px}
+.price-group h3{font-family:var(--body);font-weight:700;font-size:1.05rem;color:var(--muted);margin:8px 0 6px}
+.price-group ul{list-style:none;margin:0 0 26px;padding:0}
+.price-group li{display:flex;align-items:baseline;gap:10px;padding:11px 0;border-bottom:1px solid var(--line)}
+.price-group li .n{flex:0 1 auto}
+.price-group li .n small{display:block;color:var(--muted);font-size:.875rem;line-height:1.35;margin-top:2px}
+.price-group li .lead-dots{flex:1 1 24px;border-bottom:2px dotted var(--line);transform:translateY(-5px);min-width:24px}
+.price-group li .v{font-weight:700;white-space:nowrap}
+.note{font-size:.9rem;color:var(--muted);margin-top:4px}
+
+/* что важно */
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:28px 40px;margin:0;padding:0;list-style:none}
+.facts li{border-left:3px solid var(--accent);padding-left:16px}
+.facts b{display:block;font-size:1.1rem;margin-bottom:4px}
+.facts span{color:var(--muted)}
+
+/* отзывы */
+.reviews{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:20px}
+.reviews blockquote{margin:0;padding:22px;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius)}
+.reviews p{margin:0 0 12px}
+.reviews cite{font-style:normal;color:var(--muted);font-size:.92rem}
+
+/* фото */
+.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,260px),1fr));gap:12px}
+.gallery img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:var(--radius)}
+
+/* как добраться */
+.visit{display:grid;grid-template-columns:1fr 1.25fr;gap:40px;align-items:start}
+@media (max-width:860px){.visit{grid-template-columns:1fr}}
+.addr{font-size:1.25rem;font-weight:700;margin:0 0 6px}
+.metro-list{list-style:none;padding:0;margin:18px 0 28px}
+.metro-list li{display:flex;align-items:center;gap:12px;padding:6px 0}
+.metro-list i{width:22px;height:22px;border-radius:50%;flex:none;font:800 .72rem/22px var(--body);text-align:center;font-style:normal}
+.visit .btn{margin:0 0 28px}
+.week{width:100%;border-collapse:collapse}
+.week td{padding:8px 0;border-bottom:1px solid var(--line)}
+.week td:last-child{text-align:right;font-weight:500}
+.week tr.today td{font-weight:700;color:var(--ink)}
+.week tr.today td:first-child::after{content:" — сегодня";font-weight:400;color:var(--muted)}
+.map{width:100%;aspect-ratio:4/3;border:0;border-radius:var(--radius);background:var(--surface)}
+
+/* запись */
+.book{background:var(--surface);border-top:1px solid var(--line)}
+.book-grid{display:grid;grid-template-columns:1fr 1.2fr;gap:40px}
+@media (max-width:860px){.book-grid{grid-template-columns:1fr}}
+form{display:grid;gap:16px}
+label{display:grid;gap:6px;font-weight:500;font-size:.95rem}
+input,select,textarea{font:inherit;color:var(--ink);background:var(--bg);border:1.5px solid var(--line);border-radius:var(--radius);padding:13px 14px;min-height:50px;width:100%}
+textarea{min-height:90px;resize:vertical}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--accent)}
+.consent{display:flex;gap:10px;align-items:flex-start;font-weight:400;font-size:.88rem;color:var(--muted);grid-template-columns:none}
+.consent input{width:20px;height:20px;min-height:0;margin-top:2px;flex:none;accent-color:var(--accent)}
+.form-msg{min-height:1.4em;font-size:.95rem;margin:0}
+.call-box{align-self:center}
+.call-num{display:block;margin:0 0 18px;font:var(--display-weight) clamp(1.9rem,5vw,2.8rem)/1.1 var(--display);text-decoration:none;white-space:nowrap}
+
+/* подвал */
+footer{padding:40px 0 110px;border-top:1px solid var(--line);font-size:.92rem;color:var(--muted)}
+footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px 32px}
+@media (min-width:821px){footer{padding-bottom:40px}}
+
+/* липкая панель на телефоне */
+.dock{position:fixed;left:0;right:0;bottom:0;display:none;gap:8px;padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:var(--bg);border-top:1px solid var(--line);z-index:20}
+.dock .btn{flex:1;min-height:50px;padding:0 12px}
+@media (max-width:820px){.dock{display:flex}.on-netlify .dock{padding-bottom:calc(74px + env(safe-area-inset-bottom))}.on-netlify footer{padding-bottom:174px}}
+</style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "HairSalon", "name": "Fresh", "description": "Парикмахерская на Шарикоподшипниковской.", "telephone": "+79672377747", "address": {"@type": "PostalAddress", "streetAddress": "ул. Шарикоподшипниковская, 13с24", "addressLocality": "Москва", "addressCountry": "RU"}, "openingHoursSpecification": [{"@type": "OpeningHoursSpecification", "dayOfWeek": "Monday", "opens": "12:00", "closes": "20:00"}, {"@type": "OpeningHoursSpecification", "dayOfWeek": "Tuesday", "opens": "12:00", "closes": "20:00"}, {"@type": "OpeningHoursSpecification", "dayOfWeek": "Wednesday", "opens": "12:00", "closes": "20:00"}, {"@type": "OpeningHoursSpecification", "dayOfWeek": "Thursday", "opens": "12:00", "closes": "20:00"}, {"@type": "OpeningHoursSpecification", "dayOfWeek": "Friday", "opens": "12:00", "closes": "20:00"}, {"@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "10:00", "closes": "21:00"}, {"@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "10:00", "closes": "21:00"}], "geo": {"@type": "GeoCoordinates", "latitude": 55.7190226, "longitude": 37.688362}, "url": "https://alphave69.github.io/fresh/", "image": "https://alphave69.github.io/fresh/og.png"}</script>
+</head>
+<body>
+
+<div class="demo-bar"><div class="wrap">
+  <span>Демо-версия сайта для «Fresh». Цены и тексты примерные.</span>
+  <span>Сделал Никита, <a href="https://t.me/hollowsites">t.me/hollowsites</a></span>
+</div></div>
+
+
+<header class="top"><div class="wrap">
+  <a class="brand" href="#">Fresh</a>
+  <nav class="nav">
+    <a href="#prices">Цены</a>
+    <a href="#visit">Как добраться</a>
+    <a href="#book">Запись</a>
+    <a class="tel" href="tel:+79672377747">+7 967 237-77-47</a>
+  </nav>
+</div></header>
+
+<main>
+<section class="hero"><div class="wrap">
+  <h1>Fresh</h1>
+  <p class="lead">Парикмахерская на Шарикоподшипниковской.</p>
+
+  
+  <div class="route" role="img" aria-label="От метро Дубровка 13 минут пешком до адреса ул. Шарикоподшипниковская, 13с24">
+    <div class="roundel" aria-hidden="true">М</div>
+    <div class="path" aria-hidden="true"><span>13 мин пешком</span></div>
+    <div class="pin" aria-hidden="true"><svg viewBox="0 0 34 44"><path d="M17 1C8.2 1 1 8.1 1 16.9 1 29 17 43 17 43s16-14 16-26.1C33 8.1 25.8 1 17 1z" fill="var(--accent)"/><circle cx="17" cy="17" r="6" fill="var(--accent-ink)"/></svg></div>
+    <div class="route-labels" aria-hidden="true">
+      <div><b>м. Дубровка</b></div>
+      <div class="to"><b>ул. Шарикоподшипниковская, 13с24</b></div>
+    </div>
+  </div>
+  
+
+  <div class="status-row">
+    <span class="status" id="status"><span class="dot"></span><span id="status-text">Режим работы — ниже</span></span>
+    
+  </div>
+
+  <div class="cta">
+    <a class="btn btn-main" href="#book">Записаться</a>
+    <a class="btn btn-ghost btn-tel" href="tel:+79672377747"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>+7 967 237-77-47</a>
+    <a class="btn btn-ghost" href="https://yandex.ru/maps/?rtext=~55.7190226%2C37.688362&amp;rtt=pd" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M3 11l19-9-9 19-2-8-8-2z"/></svg>Маршрут</a>
+  </div>
+</div></section>
+
+
+<section class="prices" id="prices"><div class="wrap">
+  <h2>Цены</h2>
+  <div class="price-cols">
+    
+    <div class="price-group">
+      <h3>Стрижки</h3>
+      <ul>
+        
+        <li><span class="n">Женская стрижка</span><span class="lead-dots" aria-hidden="true"></span><span class="v">от 1 500 ₽</span></li>
+        
+        <li><span class="n">Мужская стрижка</span><span class="lead-dots" aria-hidden="true"></span><span class="v">от 1 000 ₽</span></li>
+        
+        <li><span class="n">Детская стрижка</span><span class="lead-dots" aria-hidden="true"></span><span class="v">от 800 ₽</span></li>
+        
+      </ul>
+    </div>
+    
+    <div class="price-group">
+      <h3>Окрашивание и укладка</h3>
+      <ul>
+        
+        <li><span class="n">Окрашивание в один тон</span><span class="lead-dots" aria-hidden="true"></span><span class="v">от 3 000 ₽</span></li>
+        
+        <li><span class="n">Укладка</span><span class="lead-dots" aria-hidden="true"></span><span class="v">от 1 200 ₽</span></li>
+        
+      </ul>
+    </div>
+    
+  </div>
+  <p class="note">Список услуг и цены в демо примерные. Уточняйте по телефону.</p>
+</div></section>
+
+
+
+<section><div class="wrap">
+  <h2>Что важно знать</h2>
+  <ul class="facts">
+    <li><b>Будни с 12:00</b><span>С понедельника по пятницу работаем с 12:00 до 20:00.</span></li><li><b>Выходные дольше</b><span>В субботу и воскресенье — с 10:00 до 21:00.</span></li><li><b>Запись в WhatsApp</b><span>Напишите или позвоните по номеру +7 967 237-77-47.</span></li>
+  </ul>
+</div></section>
+
+
+
+
+
+
+<section id="visit" ><div class="wrap">
+  <h2>Как добраться</h2>
+  <div class="visit">
+    <div>
+      <p class="addr">Шарикоподшипниковская улица, 13, стр. 24, Москва</p>
+      
+      
+      <ul class="metro-list">
+        <li><i style="background:#B3D445;color:#1E1E1E">М</i><span>Дубровка, 13 мин пешком</span></li><li><i style="background:#8E479C;color:#FFFFFF">М</i><span>Волгоградский проспект, 13 мин пешком</span></li>
+      </ul>
+      
+      <a class="btn btn-ghost" href="https://yandex.ru/maps/?rtext=~55.7190226%2C37.688362&amp;rtt=pd" target="_blank" rel="noopener">Маршрут в Яндекс Картах</a>
+      <table class="week" aria-label="Режим работы">
+        <tr data-day="0"><td>Понедельник</td><td>12:00–20:00</td></tr><tr data-day="1"><td>Вторник</td><td>12:00–20:00</td></tr><tr data-day="2"><td>Среда</td><td>12:00–20:00</td></tr><tr data-day="3"><td>Четверг</td><td>12:00–20:00</td></tr><tr data-day="4"><td>Пятница</td><td>12:00–20:00</td></tr><tr data-day="5"><td>Суббота</td><td>10:00–21:00</td></tr><tr data-day="6"><td>Воскресенье</td><td>10:00–21:00</td></tr>
+      </table>
+    </div>
+    <iframe class="map" title="Карта: Шарикоподшипниковская улица, 13, стр. 24, Москва" loading="lazy" src="https://yandex.ru/map-widget/v1/?ll=37.688362%2C55.7190226&amp;z=16&amp;pt=37.688362%2C55.7190226%2Cpm2rdm"></iframe>
+  </div>
+</div></section>
+
+<section class="book" id="book"><div class="wrap book-grid">
+  <div>
+    <h2>Запись</h2>
+    
+    <p class="muted" style="max-width:36ch;margin-top:-10px">Оставьте имя и телефон и напишите, на какую услугу и когда хотите прийти.</p>
+    <p style="margin-top:22px">Или позвоните: <a href="tel:+79672377747"><b>+7 967 237-77-47</b></a></p>
+  </div>
+  <form id="book-form" novalidate>
+    <label>Имя<input name="name" autocomplete="given-name" required></label>
+    <label>Телефон<input name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="+7" required></label>
+    
+    <label>Услуга<select name="service"><option value="">Пока не знаю</option><option>Женская стрижка</option><option>Мужская стрижка</option><option>Детская стрижка</option><option>Окрашивание в один тон</option><option>Укладка</option></select></label>
+    
+    <label>Удобное время или комментарий<textarea name="comment" placeholder="Услуга и удобное время"></textarea></label>
+    <label class="consent"><input type="checkbox" name="consent" required><span>Согласен на обработку персональных данных по <a href="privacy.html">политике</a></span></label>
+    <button class="btn btn-main" type="submit">Отправить в WhatsApp</button>
+    <p class="form-msg" id="form-msg" role="status"></p>
+  </form>
+    
+</div></section>
+</main>
+
+<footer><div class="wrap">
+  <span>Fresh, Шарикоподшипниковская улица, 13, стр. 24, Москва</span>
+  <span><a href="privacy.html">Политика обработки персональных данных</a></span>
+  <span>Демо: Никита</span>
+</div></footer>
+
+<div class="dock">
+  <a class="btn btn-ghost" href="tel:+79672377747">Позвонить</a>
+  <a class="btn btn-main" href="#book">Записаться</a>
+</div>
+
+<script>
+(function(){
+  var HOURS = [[["12:00", "20:00"]], [["12:00", "20:00"]], [["12:00", "20:00"]], [["12:00", "20:00"]], [["12:00", "20:00"]], [["10:00", "21:00"]], [["10:00", "21:00"]]]; // Пн..Вс: [["10:00","22:00"]] | "24" | null
+  var CHANNEL = {"type": "whatsapp", "value": "79672377747"};
+  var DAYS = ["понедельник","вторник","среду","четверг","пятницу","субботу","воскресенье"];
+
+  function nowMsk(){
+    var parts = new Intl.DateTimeFormat("en-GB",{timeZone:"Europe/Moscow",weekday:"short",hour:"2-digit",minute:"2-digit",hour12:false}).formatToParts(new Date());
+    var o={}; parts.forEach(function(p){o[p.type]=p.value});
+    var idx = ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"].indexOf(o.weekday);
+    return {day:idx, min:(parseInt(o.hour,10)%24)*60+parseInt(o.minute,10)};
+  }
+  function toMin(s){var a=s.split(":");return +a[0]*60+(+a[1]);}
+  function status(){
+    var n = nowMsk(), el=document.getElementById("status"), tx=document.getElementById("status-text");
+    var rows=document.querySelectorAll(".week tr"); if(rows.length===7) rows[n.day].classList.add("today");
+    var t = HOURS[n.day];
+    if (t === "24") { tx.textContent = "Открыто круглосуточно"; return; }
+    // работаем ли сейчас по вчерашнему графику после полуночи
+    var y = HOURS[(n.day+6)%7];
+    if (y && y!=="24") { var ys=toMin(y[0][0]), ye=toMin(y[0][1]); if (ye<=ys && n.min<ye){ tx.textContent="Открыто до "+y[0][1]; return; } }
+    if (t) { var s=toMin(t[0][0]), e=toMin(t[0][1]);
+      var open = e>s ? (n.min>=s && n.min<e) : (n.min>=s);
+      if (open) { tx.textContent="Открыто до "+t[0][1]; return; }
+      if (n.min<s) { el.classList.add("closed"); tx.textContent="Закрыто, откроемся в "+t[0][0]; return; }
+    }
+    for (var i=1;i<=7;i++){ var d=(n.day+i)%7, h=HOURS[d]; if(h){ el.classList.add("closed");
+      tx.textContent = "Закрыто, откроемся " + (i===1?"завтра":"в "+DAYS[d]) + (h==="24"?"":" в "+h[0][0]); return; } }
+  }
+  try { status(); } catch(e) {}
+
+  var f=document.getElementById("book-form"), msg=document.getElementById("form-msg");
+  if (f) f.addEventListener("submit", function(ev){  // при записи по телефону формы нет
+    ev.preventDefault();
+    var d=new FormData(f), name=(d.get("name")||"").trim(), phone=(d.get("phone")||"").trim();
+    if(!name){ msg.textContent="Напишите имя, чтобы администратор знал, как к вам обращаться."; f.name.focus(); return; }
+    if(phone.replace(/\D/g,"").length<10){ msg.textContent="Проверьте телефон: нужно 10–11 цифр."; f.phone.focus(); return; }
+    if(!d.get("consent")){ msg.textContent="Отметьте согласие на обработку данных, без него заявку отправить нельзя."; return; }
+    var text="Здравствуйте! Хочу записаться.\nИмя: "+name+"\nТелефон: "+phone+(d.get("service")?"\nУслуга: "+d.get("service"):"")+(d.get("comment")?"\nКомментарий: "+d.get("comment"):"");
+    if(CHANNEL.type==="whatsapp"){ window.open("https://wa.me/"+CHANNEL.value+"?text="+encodeURIComponent(text),"_blank"); msg.textContent="Открываем WhatsApp с готовым сообщением."; }
+    else if(CHANNEL.type==="telegram"){
+      var go=function(){ window.open("https://t.me/"+CHANNEL.value,"_blank"); };
+      if(navigator.clipboard){ navigator.clipboard.writeText(text).then(function(){ msg.textContent="Текст заявки скопирован — вставьте его в чат Telegram."; go(); }, go); } else go();
+    }
+    else if(CHANNEL.type==="endpoint"){
+      fetch(CHANNEL.value,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({name:name,phone:phone,service:d.get("service"),comment:d.get("comment")})})
+        .then(function(r){ if(!r.ok) throw 0; msg.textContent="Заявка отправлена. Администратор перезвонит."; f.reset(); })
+        .catch(function(){ msg.textContent="Заявка не ушла. Позвоните нам или попробуйте ещё раз."; });
+    }
+  });
+})();
+</script>
+</body>
+</html>
